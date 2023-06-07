@@ -31,7 +31,7 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
   
   When finish, can use docker desktop  or `docker run -p 3000:3000 -e DATABASE_URL="database_url_goes_here" ct3a-docker`
   
-  Then you can go to 'http://localhost:3000/'
+  Then you can go to http://localhost:3000/
   
   - For Mac:
 
@@ -40,7 +40,7 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 #Directly:
   - For Windows: 
   
-    Use wsl，cd to 'soundwave' folder. Then type ' npm run dev '. Then you can go to 'http://localhost:3000/'
+    Use wsl，cd to 'soundwave' folder. Then type  `npm run dev` . Then you can go to http://localhost:3000/
   
   - For Mac:
   
