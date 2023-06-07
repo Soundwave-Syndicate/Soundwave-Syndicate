@@ -24,15 +24,15 @@ To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the fo
 You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
 
 ## How do I deploy this?
-Docker:
-  For Windows:
-    Use wsl，cd to 'soundwave' folder. Then type ' docker build -t ct3a-docker --build-arg NEXT_PUBLIC_CLIENTVAR=clientvar . '
-    When finish, can use docker desktop  or 'docker run -p 3000:3000 -e DATABASE_URL="database_url_goes_here" ct3a-docker'.
-    Then you can go to 'http://localhost:3000/'
-  For Mac:
-    No sure. Follow the similar steps above to see, I don't have a mac device to try. When you are done trying please help update it.
+#Docker:
+  - For Windows:
+ -- Use wsl，cd to 'soundwave' folder. Then type ' docker build -t ct3a-docker --build-arg NEXT_PUBLIC_CLIENTVAR=clientvar . '
+ -- When finish, can use docker desktop  or 'docker run -p 3000:3000 -e DATABASE_URL="database_url_goes_here" ct3a-docker'.
+ -- Then you can go to 'http://localhost:3000/'
+  - For Mac:
+ -- No sure. Follow the similar steps above to see, I don't have a mac device to try. When you are done trying please help update it.
 
-Directly:
+#Directly:
   For Windows: 
     Use wsl，cd to 'soundwave' folder. Then type ' npm run dev '. Then you can go to 'http://localhost:3000/'
   
