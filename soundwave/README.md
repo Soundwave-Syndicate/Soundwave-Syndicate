@@ -38,10 +38,10 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
   No sure. Follow the similar steps above to see, I don't have a mac device to try. When you are done trying please help update it.
 
 #Directly:
-  For Windows: 
+  - For Windows: 
   
     Use wsl，cd to 'soundwave' folder. Then type ' npm run dev '. Then you can go to 'http://localhost:3000/'
   
-  For Mac:
+  - For Mac:
   
     No sure. Follow the similar steps above to see, I don't have a mac device to try. When you are done trying please help update it.
