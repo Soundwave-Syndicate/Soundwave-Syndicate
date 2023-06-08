@@ -24,10 +24,10 @@ To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the fo
 You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
 
 ## How do I deploy this?
-#Docker:
+#Docker(Docker Error and no idea how to fix):
   - For Windows:
   
-      Use wsl，cd to 'soundwave' folder. Then type  `docker build -t ct3a-docker --build-arg NEXT_PUBLIC_CLIENTVAR=clientvar .`
+      Use wsl，then type  `docker build -t ct3a-docker --build-arg NEXT_PUBLIC_CLIENTVAR=clientvar .`
   
       When finish, can use docker desktop  or `docker run -p 3000:3000 -e DATABASE_URL="mysql://40dtru4343gywha47n6o:pscale_pw_1HrCI2iq8AxAhZjEVHoPhZ1Best9NSTqaNSAhpu2Rqq@aws.connect.psdb.cloud/soundware?sslaccept=strict" ct3a-docker`
   
