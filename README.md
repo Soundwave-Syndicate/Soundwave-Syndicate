@@ -29,7 +29,7 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
   
       Use wsl，cd to 'soundwave' folder. Then type  `docker build -t ct3a-docker --build-arg NEXT_PUBLIC_CLIENTVAR=clientvar .`
   
-      When finish, can use docker desktop  or `docker run -p 3000:3000 -e DATABASE_URL="database_url_goes_here" ct3a-docker`
+      When finish, can use docker desktop  or `docker run -p 3000:3000 -e DATABASE_URL="mysql://40dtru4343gywha47n6o:pscale_pw_1HrCI2iq8AxAhZjEVHoPhZ1Best9NSTqaNSAhpu2Rqq@aws.connect.psdb.cloud/soundware?sslaccept=strict" ct3a-docker`
   
       Then you can go to http://localhost:3000/
   
