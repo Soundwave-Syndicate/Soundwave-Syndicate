@@ -40,7 +40,7 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 #Directly:
   - For Windows: 
   
-      Use wsl，cd to 'soundwave' folder. Then type  `npm run dev` . Then you can go to http://localhost:3000/
+      Use wsl, then type  `npm run dev` . Then you can go to http://localhost:3000/
   
   - For Mac:
   
